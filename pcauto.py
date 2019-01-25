@@ -2,7 +2,7 @@ import serial
 import time
 import pyautogui
 
-ArduinoSerial=serial.Serial('com6',9600)
+ArduinoSerial=serial.Serial('com8',9600)
 time.sleep(2)
 
 while 1:
